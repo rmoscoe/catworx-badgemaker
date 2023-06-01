@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "f8aW7woMTbkZxayiUeSsPOX05qIP6DYW5Cmv6o95FTrlZ0KLxAVTGlt+XSN2KC0ot7Ob2jPSfaShKLIvLNGdkA==",
+  "dgSpecHash": "uYt8DdDwdRBi5up4cB7RqR0/MKFSTPWh6oYNupxyxFfYPVhiBKm8nr+kyqTWF7loXnFaaM91mC+DeVkFXUb9aQ==",
   "success": true,
   "projectFilePath": "/Users/rexfall/Documents/Documents - iMac/UC Berkeley Coding Bootcamp/4. Post-Work/C#/CatWorx.BadgeMaker/CatWorx.BadgeMaker.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/rexfall/.nuget/packages/skiasharp/2.88.0/skiasharp.2.88.0.nupkg.sha512",
+    "/Users/rexfall/.nuget/packages/skiasharp.nativeassets.macos/2.88.0/skiasharp.nativeassets.macos.2.88.0.nupkg.sha512",
+    "/Users/rexfall/.nuget/packages/skiasharp.nativeassets.win32/2.88.0/skiasharp.nativeassets.win32.2.88.0.nupkg.sha512",
+    "/Users/rexfall/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+  ],
   "logs": []
 }
