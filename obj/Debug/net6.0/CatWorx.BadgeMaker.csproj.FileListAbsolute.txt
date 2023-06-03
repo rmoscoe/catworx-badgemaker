@@ -19,3 +19,4 @@
 /Users/rexfall/Documents/Documents - iMac/UC Berkeley Coding Bootcamp/4. Post-Work/C#/CatWorx.BadgeMaker/bin/Debug/net6.0/runtimes/win-x64/native/libSkiaSharp.dll
 /Users/rexfall/Documents/Documents - iMac/UC Berkeley Coding Bootcamp/4. Post-Work/C#/CatWorx.BadgeMaker/bin/Debug/net6.0/runtimes/win-x86/native/libSkiaSharp.dll
 /Users/rexfall/Documents/Documents - iMac/UC Berkeley Coding Bootcamp/4. Post-Work/C#/CatWorx.BadgeMaker/obj/Debug/net6.0/CatWorx.BadgeMaker.csproj.CopyComplete
+/Users/rexfall/Documents/Documents - iMac/UC Berkeley Coding Bootcamp/4. Post-Work/C#/CatWorx.BadgeMaker/bin/Debug/net6.0/Newtonsoft.Json.dll
