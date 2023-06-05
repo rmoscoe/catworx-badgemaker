@@ -14,7 +14,6 @@ namespace CatWorx.BadgeMaker
             // Collect user values until the value is an emty string
             while (true)
             {
-                // Move the initial prompt inside the loop, so it repeats for each employee
                 Console.WriteLine("Enter first name (leave empty to exit): ");
                 // change input to firstName
                 string firstName = Console.ReadLine() ?? "";
@@ -22,7 +21,7 @@ namespace CatWorx.BadgeMaker
                 {
                     break;
                 }
-                // add a Console.ReadLine() for each value
+                
                 Console.Write("Enter last name: ");
                 string lastName = Console.ReadLine() ?? "";
                 Console.Write("Enter ID: ");
@@ -44,12 +43,6 @@ namespace CatWorx.BadgeMaker
             {
                 string response = await client.GetStringAsync("https://randomuser.me/api/?results=10&nat=us&inc=name,id,picture");
                 JObject json = JObject.Parse(response);
-                // JArray results = (JArray)json["results"];
-
-                // foreach (JObject result in results)
-                // {
-                //     Console.WriteLine(result.SelectToken("name.first"));
-                // }
 
                 foreach (var token in json.SelectToken("results")!)
                 {
